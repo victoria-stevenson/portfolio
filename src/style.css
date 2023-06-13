@@ -23,6 +23,7 @@ h3 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
 .about-link,
 .contact-link {
   margin: 10px;
@@ -39,13 +40,20 @@ h3 {
   background-color: #3ca9aa;
   border-color: #3ca9aa;
 }
-.container {
+.container-index,
+.container-about {
   background-color: #b9eade;
-  display: block;
-  margin: 0 100px auto;
-  padding: 50px 50px 300px 50px;
-  max-height: 100%;
+  padding: 50px 50px 200px 50px;
   border-radius: 6px;
+}
+.container-index {
+  display: block;
+  margin: 100px 100px auto;
+}
+
+.container-about {
+  display: block;
+  margin: 50px 100px auto;
 }
 
 .text-container {

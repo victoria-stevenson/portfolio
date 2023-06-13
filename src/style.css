@@ -1,0 +1,73 @@
+:root {
+  --about-text-color: #b9eade;
+  --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --background-color: whitesmoke;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: var(--background-color);
+}
+
+h1 {
+  font-size: 65px;
+  margin: 20px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 24px;
+  color: grey;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.about-link,
+.contact-link {
+  margin: 10px;
+  border: 1px solid var(--background-color);
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #ffede6;
+  color: black;
+  text-decoration: none;
+}
+.about-link:hover,
+.contact-link:hover {
+  background-color: #3ca9aa;
+  border-color: #3ca9aa;
+}
+.container {
+  background-color: #b9eade;
+  display: block;
+  margin: 0 100px auto;
+  padding: 50px 50px 300px 50px;
+  max-height: 100%;
+  border-radius: 6px;
+}
+
+.text-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.about-text-left,
+.about-text-right {
+  background-color: var(--background-color);
+  max-width: 300px;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: lighter;
+  border-radius: 6px;
+}
+.email {
+  margin-bottom: 150px;
+  font-size: 22px;
+  border-radius: 6px;
+  background-color: var(--background-color);
+  padding: 20px;
+}

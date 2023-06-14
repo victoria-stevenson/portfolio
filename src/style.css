@@ -12,7 +12,7 @@ body {
 
 h1 {
   font-size: 65px;
-  margin: 20px;
+  margin: 0;
 }
 h2 {
   font-size: 36px;
@@ -47,18 +47,13 @@ h3 {
 }
 .container-index,
 .container-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 7%;
   background-color: var(--container-color);
-  padding: 50px 50px 200px 50px;
+  padding: 30px 50px 200px 50px;
   border-radius: 6px;
-}
-.container-index {
-  display: block;
-  margin: 100px 100px auto;
-}
-
-.container-about {
-  display: block;
-  margin: 50px 100px auto;
 }
 
 .text-container {

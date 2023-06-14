@@ -24,13 +24,8 @@ h3 {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.links {
-  display: flex;
-  justify-content: center;
-}
 .about-link,
 .contact-link {
-  justify-content: center;
   margin: 10px;
   border: 1px solid #ffede6;
   padding: 15px;

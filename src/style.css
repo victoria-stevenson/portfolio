@@ -46,7 +46,8 @@ h3 {
   text-decoration: none;
 }
 .about-link:hover,
-.contact-link:hover {
+.contact-link:hover,
+.applink:hover {
   background-color: #3ca9aa;
   border-color: #3ca9aa;
 }

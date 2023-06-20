@@ -37,11 +37,11 @@ h3 {
 .about-link,
 .contact-link {
   margin: 10px;
-  border: 1px solid #ffede6;
+  border: 1px solid #f5f2fe;
   padding: 15px;
   border-radius: 6px;
   box-shadow: var(--box-shadow);
-  background-color: #ffede6;
+  background-color: #f5f2fe;
   color: black;
   text-decoration: none;
 }

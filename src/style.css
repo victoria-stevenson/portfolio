@@ -2,7 +2,7 @@
   --container-color: #b9eade;
   --box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   --background-color: whitesmoke;
-  --primary-color: #6c63ff;
+  --primary-color: #ffede6;
 }
 
 body {
@@ -37,7 +37,7 @@ h3 {
 .about-link,
 .contact-link {
   margin: 10px;
-  border: 1px solid #ffede6;
+  border: 1px solid var(--primary-color);
   padding: 15px;
   border-radius: 6px;
   box-shadow: var(--box-shadow);
@@ -88,7 +88,7 @@ h3 {
 .home-applinks {
   display: flex;
   margin-top: 40px;
-  justify-content: left;
+  justify-content: center;
 }
 
 .home-applinks a {
@@ -101,7 +101,7 @@ h3 {
 .applink {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: black;
 }
 
 @media (max-width: 500px) {

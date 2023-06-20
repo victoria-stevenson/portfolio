@@ -63,7 +63,7 @@ h3 {
   background-color: var(--background-color);
   max-width: 100%;
   padding: 5%;
-
+  margin: 10px;
   line-height: 1.5;
   font-size: 16px;
   font-weight: lighter;

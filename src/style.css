@@ -45,9 +45,7 @@ h3 {
 }
 .container-index,
 .container-about {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  text-align: center;
   margin: 7%;
   background-color: var(--container-color);
   padding: 30px 50px 200px 50px;
@@ -56,14 +54,16 @@ h3 {
 
 .text-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  padding: 15px;
 }
+
 .about-text-left,
 .about-text-right {
   background-color: var(--background-color);
-  max-width: 300px;
+  max-width: 100%;
   padding: 5%;
-  margin: 10px 30px 100px 30px;
+
   line-height: 1.5;
   font-size: 16px;
   font-weight: lighter;
@@ -73,7 +73,9 @@ h3 {
   font-size: 22px;
   border-radius: 6px;
   background-color: var(--background-color);
-  padding: 20px;
+  padding: 2%;
+  display: block;
+  margin: 0 auto;
 }
 
 @media (max-width: 500px) {
@@ -85,5 +87,11 @@ h3 {
   }
   .index-h3 {
     font-size: 18px;
+  }
+}
+
+@media (min-width: 767px) {
+  .email {
+    max-width: 89%;
   }
 }

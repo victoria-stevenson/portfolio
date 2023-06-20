@@ -77,4 +77,10 @@ h3 {
   .my-name {
     font-size: 48px;
   }
+  .index-h2 {
+    font-size: 28px;
+  }
+  .index-h3 {
+    font-size: 18px;
+  }
 }

@@ -23,10 +23,16 @@ h3 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
 .links {
   display: flex;
   justify-content: center;
 }
+
+.about-h1 {
+  margin-top: 30px;
+}
+
 .about-link,
 .contact-link {
   margin: 10px;
@@ -84,9 +90,13 @@ h3 {
   }
   .index-h2 {
     font-size: 28px;
+    margin-top: 20px;
   }
   .index-h3 {
     font-size: 18px;
+  }
+  .about-h1 {
+    margin-top: 40px;
   }
 }
 

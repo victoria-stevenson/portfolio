@@ -1,6 +1,5 @@
 :root {
   --container-color: white;
-  /* --container-color: #c8e8e0*/
   --box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   --background-color: #f7f7f7;
   --primary-color: #ffede6;
@@ -36,10 +35,6 @@ h3 {
   justify-content: center;
 }
 
-.about-h1 {
-  margin-top: 30px;
-}
-
 .about-link,
 .contact-link {
   margin: 10px;
@@ -61,7 +56,7 @@ h3 {
 .container-about {
   text-align: center;
   background-color: var(--container-color);
-  margin-top: 56px;
+  margin-top: 70px;
   padding: 20px 50px 20px 50px;
 }
 .container-about {

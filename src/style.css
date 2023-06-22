@@ -29,6 +29,12 @@ h3 {
   font-size: 24px;
   color: grey;
 }
+h4 {
+  margin-bottom: 20px;
+}
+.index-h3 {
+  margin-top: 15px;
+}
 
 .nav-bg {
   background-color: var(--background-color);

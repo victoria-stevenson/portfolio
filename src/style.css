@@ -102,6 +102,13 @@ h4 {
   color: black;
 }
 
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px;
+  font-size: 30px;
+}
+
 .home-applinks {
   display: flex;
   margin-top: 40px;

@@ -105,8 +105,20 @@ h4 {
 .icons {
   display: flex;
   justify-content: space-evenly;
-  margin: 40px;
+  margin: 30px;
   font-size: 30px;
+  transition: all 100ms ease-in-out;
+}
+
+.icons a {
+  color: black;
+  padding: 3px 10px;
+}
+
+.icons a:hover {
+  color: white;
+  background: black;
+  border-radius: 50%;
 }
 
 .home-applinks {

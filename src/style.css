@@ -32,6 +32,7 @@ h3 {
 h4 {
   margin-bottom: 20px;
 }
+
 .index-h3 {
   margin-top: 15px;
 }
@@ -61,7 +62,8 @@ h4 {
   background-color: var(--background-color);
 }
 .container-index,
-.container-about {
+.container-about,
+.container-contact {
   text-align: center;
   background-color: var(--container-color);
   margin-top: 70px;
@@ -95,7 +97,7 @@ h4 {
   padding: 3%;
   display: block;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 70px;
 }
 
 .email a {
@@ -105,7 +107,7 @@ h4 {
 .icons {
   display: flex;
   justify-content: space-evenly;
-  margin: 20px;
+  margin: 30px;
   font-size: 30px;
   transition: all 100ms ease-in-out;
 }

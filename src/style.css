@@ -67,7 +67,7 @@ h4 {
   text-align: center;
   background-color: var(--container-color);
   margin-top: 70px;
-  padding: 20px 50px 20px 50px;
+  padding: 20px;
 }
 
 .container-about {
@@ -86,7 +86,7 @@ h4 {
   max-width: 100%;
   padding: 5%;
   margin: 10px;
-  line-height: 1.7;
+  line-height: 1.6;
   font-size: 16px;
   border-radius: 6px;
 }

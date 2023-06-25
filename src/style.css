@@ -109,18 +109,18 @@ h4 {
   justify-content: space-evenly;
   margin: 30px;
   font-size: 30px;
-  transition: all 100ms ease-in-out;
 }
 
 .icons a {
   color: black;
   padding: 3px 10px;
+  transition: all 150ms ease-in-out;
 }
 
 .icons a:hover {
   color: white;
   background: black;
-  border-radius: 50%;
+  border-radius: 6px;
 }
 
 .home-applinks {

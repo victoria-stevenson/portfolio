@@ -69,6 +69,7 @@ h4 {
   margin-top: 70px;
   padding: 20px 50px 20px 50px;
 }
+
 .container-about {
   margin-bottom: 200px;
 }
@@ -80,7 +81,6 @@ h4 {
   margin-bottom: 30px;
 }
 
-.about-text-left,
 .about-text-right {
   background-color: var(--background-color);
   max-width: 100%;
@@ -174,5 +174,11 @@ h4 {
 @media (min-width: 767px) {
   .email {
     max-width: 89%;
+  }
+}
+
+@media (max-width: 992px) {
+  .profile {
+    margin: 0 0 20px 0;
   }
 }

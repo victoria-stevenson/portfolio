@@ -77,7 +77,6 @@ h4 {
 .text-container {
   display: flex;
   justify-content: space-evenly;
-  padding: 15px;
   margin-bottom: 30px;
 }
 
@@ -85,14 +84,13 @@ h4 {
   background-color: var(--background-color);
   max-width: 100%;
   padding: 5%;
-  margin: 10px;
   line-height: 1.6;
   font-size: 16px;
   border-radius: 6px;
 }
 .profile {
   max-width: 300px;
-  margin: 20px 0 50px 50px;
+  margin-top: 20px;
 }
 
 .email {
@@ -174,11 +172,5 @@ h4 {
 @media (min-width: 767px) {
   .email {
     max-width: 89%;
-  }
-}
-
-@media (max-width: 992px) {
-  .profile {
-    margin: 0 0 20px 0;
   }
 }

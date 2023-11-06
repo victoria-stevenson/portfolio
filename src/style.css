@@ -33,6 +33,13 @@ h4 {
   margin: 10px 0 20px 0;
 }
 
+.fav-heading {
+  background: #f7f7f7;
+  width: 100%;
+  padding: 10px 0;
+  margin: 50px 0 50px 0;
+}
+
 .index-h3 {
   margin-top: 15px;
 }
